@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Marvel:wght@400;700&family=Open+Sans+Condensed:wght@300&family=Raleway&display=swap");
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css");
+
+body {
+  background-color: #B3C7CE;
+}
+
+div.container {
+  text-align: center;
+  font-family: raleway;
+}
+.bg-dark {
+  background-color: #343a40!;
+}
+.navbar-brand {
+  font-family: marvel;
+}
+.link {
+  color: white;
+  text-decoration: none;
+}
+
+div.hero {
+  color: white;
+  text-align: center;
+  padding: 100px;
+  font-family: marvel;
+  font-weight: 700;
+  background-color: #343a40;
+  
+}
+h2 {
+  text-align: center;
+  font-family: marvel;
+  font-weight: bold;
+  font-size: 3rem;
+  padding: 10px;
+}
+footer {
+  padding: 15px;
+}
+
+/* Show in Large desktops and laptops */
+@media (min-width: 1200px) {
+  .bgimg {
+    background-image: url("https://cdn.glitch.com/7d508505-bb9e-4bdc-a084-ad742a660e35%2Ftumblr_pj4keaepVS1sjmkkro2_1280.jpg?v=1597947228875");
+  }
+}
+
+/*Hide in Other Small Devices */
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .bgimg {
+    background-image: none;
+  }
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+  .bgimg {
+    background-image: none;
+  }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+  .bgimg {
+    background-image: none;
+  }
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+  .bgimg {
+    background-image: none;
+  }
+}
