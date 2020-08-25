@@ -28,7 +28,24 @@ div.hero {
   font-family: marvel;
   font-weight: 700;
   background-color: #343a40;
-  
+}
+div.contain {
+  text-align: center;
+  font-family: raleway;
+  color: white;
+}
+div.jumbotron {
+  background-color: white;
+  background-image: url("https://cdn.glitch.com/7d508505-bb9e-4bdc-a084-ad742a660e35%2Ftumblr_pj4keaepVS1sjmkkro2_1280.jpg?v=1597947228875") !important;
+}
+.display-4 {
+  font-family: marvel;
+  font-weight: 700;
+  font-size: 3rem;
+}
+.lead {
+  padding: 12px;
+  font-size: 18px;
 }
 h2 {
   text-align: center;
@@ -37,8 +54,37 @@ h2 {
   font-size: 3rem;
   padding: 10px;
 }
+h3 {
+  font-family: caveat;
+  font-size: 27px;
+  padding: 10px;
+}
+.list-group {
+  text-align: center;
+}
+h4 {
+  font-family: caveat;
+  font-size: 35px;
+  font-weight: bold;
+}
+p {
+  font-family: raleway;
+}
+ul {
+  font-family: raleway;
+}
+div.scrollspy-example {
+  padding: 20px;
+}
+.source {
+  padding: 10px;
+  margin-bottom: 0px;
+}
+
 footer {
-  padding: 15px;
+  color: white;
+  padding: 20px;
+  text-align: center;
 }
 
 /* Show in Large desktops and laptops */
