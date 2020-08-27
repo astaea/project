@@ -27,73 +27,74 @@
   </head>
   <body>
     <header>
-      <div class="container">
-        <a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
-        <nav
-          class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark bgimg"
+      <a class="sr-only sr-only-focusable" href="#content"
+        >Skip to main content</a
+      >
+      <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark bgimg">
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="https://cdn.glitch.com/7d508505-bb9e-4bdc-a084-ad742a660e35%2F900785819.jpg?v=1598289106776"
+            width="30"
+            height="30"
+            class="d-inline-block align-top"
+            alt="A scribbled head and brain."
+            loading="lazy"
+          />
+          Mental Health Awareness
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
         >
-          <a class="navbar-brand" href="index.html">
-            <img
-              src="https://cdn.glitch.com/7d508505-bb9e-4bdc-a084-ad742a660e35%2F900785819.jpg?v=1598289106776"
-              width="30"
-              height="30"
-              class="d-inline-block align-top"
-              alt="A scribbled head and brain."
-              loading="lazy"
-            />
-            Mental Health Awareness
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item active">
-                <a class="nav-link" href="index.html"
-                  >Home <span class="sr-only">(current)</span></a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">About Us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="mental.html"
-                  >What is Mental Illness?</a
-                >
-              </li>
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="mental.html">What is Mental Illness?</a>
+            </li>
 
-              <li class="nav-item">
-                <a class="nav-link" href="stigma.html">What is Stigma?</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="anxiety.html">Common Conditions</a>
-              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="stigma.html">What is Stigma?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="anxiety.html">Common Conditions</a>
+            </li>
 
-              <li class="nav-item">
-                <a class="nav-link" href="https://socialworklicensemap.com/social-work-resources/mental-health-resources-list/" rel="noopener noreferrer"
-                  target="_blank">Resourses</a>
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link"
-                  href="https://jvioun.carrd.co/"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                  >Contact</a
-                >
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </div>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://socialworklicensemap.com/social-work-resources/mental-health-resources-list/"
+                rel="noopener noreferrer"
+                target="_blank"
+                >Resourses</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://jvioun.carrd.co/"
+                rel="noopener noreferrer"
+                target="_blank"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
     <div
       id="carouselExampleCaptions"
@@ -180,9 +181,11 @@
         ⇀ Articles ↽
       </h2>
       <div class="container">
-        <div class="row">
-          <div class="col-sm">
-            <div class="card">
+        <!--         Learn more: grid card
+        https://getbootstrap.com/docs/4.5/components/card/#grid-cards -->
+        <div class="row row-cols-1 row-cols-md-3">
+          <div class="col mb-4">
+            <div class="card h-100">
               <img
                 src="https://static01.nyt.com/images/2020/08/10/well/10klass-mentalhealth/10klass-mentalhealth-jumbo.jpg?quality=90&auto=webp"
                 class="card-img-top"
@@ -206,8 +209,8 @@
               </div>
             </div>
           </div>
-          <div class="col-sm">
-            <div class="card">
+          <div class="col mb-4">
+            <div class="card h-100">
               <img
                 src="https://www.statnews.com/wp-content/uploads/2017/05/AP151547368-768x432.jpg"
                 class="card-img-top"
@@ -234,8 +237,8 @@
               </div>
             </div>
           </div>
-          <div class="col-sm">
-            <div class="card">
+          <div class="col mb-4">
+            <div class="card h-100">
               <img
                 src="https://static01.nyt.com/images/2020/08/03/smarter-living/00well-anxiety-opener/00well-anxiety-opener-superJumbo-v3.jpg?quality=90&auto=webp"
                 class="card-img-top"
@@ -258,12 +261,8 @@
               </div>
             </div>
           </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm">
-            <div class="card">
+          <div class="col mb-4">
+            <div class="card h-100">
               <img
                 src="https://www.pinerest.org/media/Importance-of-MH-Awareness-768x403.jpg"
                 class="card-img-top"
@@ -288,8 +287,8 @@
               </div>
             </div>
           </div>
-          <div class="col-sm">
-            <div class="card">
+          <div class="col mb-4">
+            <div class="card h-100">
               <img
                 src="https://i.guim.co.uk/img/media/66a068a8500bc6eca66b4bc9cf5053e454beeba8/0_7_5520_3312/master/5520.jpg?width=605&quality=45&auto=format&fit=max&dpr=2&s=1963da04903f97c8bb337c2905396e88"
                 class="card-img-top"
@@ -314,8 +313,8 @@
               </div>
             </div>
           </div>
-          <div class="col-sm">
-            <div class="card">
+          <div class="col mb-4">
+            <div class="card h-100">
               <img
                 src="https://www.health.harvard.edu/media/content/images/cr/89978fe8-6577-461a-9bec-1b1e3d28fb5b.jpg"
                 class="card-img-top"
