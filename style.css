@@ -11,7 +11,7 @@ h2 {
   font-family: marvel;
   font-weight: bold;
   font-size: 3rem;
-  /*   padding: 10px; */
+  padding: 10px;
 }
 h3,
 .h3,
@@ -23,7 +23,7 @@ h4 {
 h3,
 .h3 {
   font-size: 27px;
-  /*   padding: 10px; */
+  padding: 10px;
 }
 h5,
 .h5 {
@@ -71,6 +71,7 @@ div.contain {
 div.jumbotron {
   background-color: white;
   background-image: url("https://cdn.glitch.com/7d508505-bb9e-4bdc-a084-ad742a660e35%2Ftumblr_pj4keaepVS1sjmkkro2_1280.jpg?v=1597947228875") !important;
+  padding: 70px;
 }
 .display-4 {
   font-family: marvel;
