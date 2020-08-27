@@ -28,76 +28,74 @@
     </head>
     <body>
       <header>
-        <div class="container">
-          <nav
-            class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark bgimg"
+        <nav
+          class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark bgimg"
+        >
+          <a class="navbar-brand" href="index.html">
+            <img
+              src="https://cdn.glitch.com/7d508505-bb9e-4bdc-a084-ad742a660e35%2F900785819.jpg?v=1598289106776"
+              width="30"
+              height="30"
+              class="d-inline-block align-top"
+              alt="A scribbled head and brain."
+              loading="lazy"
+            />
+            Mental Health Awareness
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
           >
-            <a class="navbar-brand" href="index.html">
-              <img
-                src="https://cdn.glitch.com/7d508505-bb9e-4bdc-a084-ad742a660e35%2F900785819.jpg?v=1598289106776"
-                width="30"
-                height="30"
-                class="d-inline-block align-top"
-                alt="A scribbled head and brain."
-                loading="lazy"
-              />
-              Mental Health Awareness
-            </a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-toggle="collapse"
-              data-target="#navbarNavDropdown"
-              aria-controls="navbarNavDropdown"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link" href="index.html"
-                    >Home <span class="sr-only">(current)</span></a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="about.html">About Us</a>
-                </li>
-                <li class="nav-item active">
-                  <a class="nav-link" href="mental.html"
-                    >What is Mental Illness?</a
-                  >
-                </li>
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html"
+                  >Home <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About Us</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="mental.html"
+                  >What is Mental Illness?</a
+                >
+              </li>
 
-                <li class="nav-item">
-                  <a class="nav-link" href="stigma.html">What is Stigma?</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="anxiety.html">Common Conditions</a>
-                </li>
-                <li class="nav-item">
-                  <a
-                    class="nav-link"
-                    href="https://socialworklicensemap.com/social-work-resources/mental-health-resources-list/"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                    >Resourses</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a
-                    class="nav-link"
-                    href="https://jvioun.carrd.co/"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                    >Contact</a
-                  >
-                </li>
-              </ul>
-            </div>
-          </nav>
-        </div>
+              <li class="nav-item">
+                <a class="nav-link" href="stigma.html">What is Stigma?</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="anxiety.html">Common Conditions</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="https://socialworklicensemap.com/social-work-resources/mental-health-resources-list/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  >Resourses</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="https://jvioun.carrd.co/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
       </header>
       <main>
         <div class="jumbotron jumbotron-fluid">
@@ -105,17 +103,19 @@
             <h1 class="display-4">What is Mental Illness?</h1>
           </div>
         </div>
-  <h5>
-      Mental illnesses are <em>treatable</em> health conditions very
-              common in the world today. They can affect anyone, regardless of
-              age, race, religion, or income. But people are still afraid to
-              talk about them due to shame, misunderstanding, negative
-              attitudes, and fear of discrimination.
-        </h5>
-     <p class="source">
-          Sourced from the National Institute of Mental Health, MakeItOk.org,
-          and verywellmind.
-        </p>
+        <div class="container">
+          <p class="h5">
+            Mental illnesses are <em>treatable</em> health conditions very
+            common in the world today. They can affect anyone, regardless of
+            age, race, religion, or income. But people are still afraid to talk
+            about them due to shame, misunderstanding, negative attitudes, and
+            fear of discrimination.
+          </p>
+          <p class="text-center source">
+            Sourced from the National Institute of Mental Health, MakeItOk.org,
+            and verywellmind.
+          </p>
+        </div>
       </main>
       <footer class="bgimg">
         <blockquote class="blockquote text-center">
@@ -131,6 +131,23 @@
           &copy; 2020
         </p>
       </footer>
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script
+        src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"
+      ></script>
     </body>
   </head>
 </html>

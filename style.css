@@ -4,14 +4,49 @@
 
 body {
   background-color: #B3C7CE;
-}
-
-div.container {
-  text-align: center;
   font-family: raleway;
 }
+h2 {
+  text-align: center;
+  font-family: marvel;
+  font-weight: bold;
+  font-size: 3rem;
+  /*   padding: 10px; */
+}
+h3,
+.h3,
+h5,
+.h5,
+h4 {
+  font-family: caveat;
+}
+h3,
+.h3 {
+  font-size: 27px;
+  /*   padding: 10px; */
+}
+h5,
+.h5 {
+  font-size: 30px;
+  padding: 80px;
+}
+
+.list-group {
+  text-align: center;
+}
+h4 {
+  font-size: 35px;
+  font-weight: bold;
+}
+p {
+}
+ul {
+}
+div.container {
+  text-align: center;
+}
 .bg-dark {
-  background-color: #343a40!;
+  background-color: #343a40;
 }
 .navbar-brand {
   font-family: marvel;
@@ -31,7 +66,6 @@ div.hero {
 }
 div.contain {
   text-align: center;
-  font-family: raleway;
   color: white;
 }
 div.jumbotron {
@@ -47,38 +81,7 @@ div.jumbotron {
   padding: 12px;
   font-size: 18px;
 }
-h2 {
-  text-align: center;
-  font-family: marvel;
-  font-weight: bold;
-  font-size: 3rem;
-  padding: 10px;
-}
-h3 {
-  font-family: caveat;
-  font-size: 27px;
-  padding: 10px;
-}
-h5 {
-    font-family: caveat;
-  font-size: 40px;
-  padding: 80px;
-}
 
-.list-group {
-  text-align: center;
-}
-h4 {
-  font-family: caveat;
-  font-size: 35px;
-  font-weight: bold;
-}
-p {
-  font-family: raleway;
-}
-ul {
-  font-family: raleway;
-}
 div.scrollspy-example {
   padding: 20px;
 }
